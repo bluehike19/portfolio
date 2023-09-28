@@ -217,7 +217,7 @@ object-fit: cover;
 
 @keyframes float {
   0%, 100% {
-    tranform: translateY(0)
+    transform: translateY(0)
   }
   50% {
     transform: translateY(-12px);
@@ -338,9 +338,7 @@ object-fit: cover;
   cursor: pointer;
   transition: background-color 0.3s;
 
-  &:hover {
-    background-color: #0056b3;
-  }
+ 
 }
 
 .message-icon {
