@@ -378,7 +378,7 @@ object-fit: cover;
   .message-icon {
     position: fixed;
     right: 35px;
-    bottom: 45px;
+    bottom: 55px;
   }
 }
 
@@ -570,7 +570,7 @@ transform: scale(1.1);
 
 @media(max-width:460px) {
   .footer {
-    width: 430px;
+    width: 420px;
   }
 }
 
