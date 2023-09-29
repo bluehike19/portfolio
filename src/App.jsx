@@ -14,13 +14,12 @@ function App() {
     console.log("toggle");
     setIsChatOpen(!isChatOpen);
   };
+
   return (
     <>
       <div className="app">
         <Header />
-        <MainContent>
-          {/* {isChatOpen && <ChatCard toggleChat={toggleChat} />} */}
-        </MainContent>
+        <MainContent />
         <div>
           <button className="message-icon" onClick={toggleChat}>
             {isChatOpen ? (
