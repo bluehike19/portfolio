@@ -11,6 +11,15 @@ body {
   /* z-index: -100; */
 }
 
+@media (max-width:600) {
+  .body {
+overflow-x: hidden;
+  }
+  .app {
+    overflow-x: hidden;
+  }
+}
+
 .light-mode {
   --background-color: #858383;
   --color: #333;
