@@ -11,10 +11,7 @@ body {
   /* z-index: -100; */
 }
 
-@media (max-width:600) {
-  .body {
-overflow-x: hidden;
-  }
+@media(max-width:450px) {
   .app {
     overflow-x: hidden;
   }
@@ -64,7 +61,7 @@ overflow-x: hidden;
     color: #bdbdbd;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 450px) {
   .brand {
     margin-left: 40%;
     margin-right: 60%;
@@ -133,7 +130,7 @@ overflow-x: hidden;
   margin-bottom: 40px;
   grid-gap: 10px;
 }
-@media (max-width: 600px) {
+@media (max-width: 450px) {
   .introduction {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -149,7 +146,7 @@ overflow-x: hidden;
   font-size: 34px;
   margin-left: 40px;
 }
-@media (max-width: 600px) {
+@media (max-width: 450px) {
   .typewriter-div {
     font-size: 25px;
     /* white-space: wrap; */
@@ -193,7 +190,7 @@ width: 100%;
   animation: float 6s linear infinite;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 450px) {
   .floating-pic {
     margin-left: -50%;
     margin-right: 10%;
@@ -251,7 +248,7 @@ object-fit: cover;
   z-index: 1;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 450px) {
   .chat-card {
     width: 70%;
     left: 18%;
@@ -318,7 +315,7 @@ object-fit: cover;
  margin-top: 100px;
  /* color: white; */
 }
-@media (max-width: 600px) {
+@media (max-width: 450px) {
 .chat-input {
   margin-top: 10px;
 }}
@@ -392,7 +389,7 @@ background-color: #0056b3;
   margin-left: 20px;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 450px) {
   .projects{
     font-size: 25px;
     margin-left: 35px;
@@ -449,7 +446,7 @@ background-color: #0056b3;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 450px) {
   .card-row {
     flex-basis: 100%;
   }
@@ -558,7 +555,7 @@ transform: scale(1.05);
 .footer-p {
   /* background-color: var(--background-color); */
 color: var(--color);
-font-size: 18px;
+font-size: 10px;
 font-weight: 200;
 /* margin-right: 50px; */
 white-space: wrap;
@@ -568,7 +565,7 @@ align-items: flex-end;
 margin-bottom: -125px;
 }
 
-@media (max-width : 600) {
+@media (max-width : 450) {
   .footer-p {
     justify-content: center;
     align-items: center;
