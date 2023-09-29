@@ -5,7 +5,7 @@ import MainContent from "./components/MainContent";
 import ScrollingImages from "./components/ScrollingImages";
 import Projects from "./components/Projects";
 import { useState } from "react";
-import ChatCard from "./chat-frontend/chatCard";
+import ChatCard from "/chat-frontend/chatCard";
 
 function App() {
   const [isChatOpen, setIsChatOpen] = useState(false);
